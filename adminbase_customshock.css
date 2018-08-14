@@ -1,0 +1,259 @@
+/*
+Base Admin Style WP by SHOCKStudio.pl
+Version: 1.0
+Data Relase: 14.08.2018
+*/
+
+:root {
+	--blue: #007bff;
+	--indigo: #6610f2;
+	--purple: #6f42c1;
+	--pink: #e83e8c;
+	--red: #dc3545;
+	--orange: #fd7e14;
+	--yellow: #ffc107;
+	--green: #28a745;
+	--teal: #20c997;
+	--cyan: #17a2b8;
+	--white: #fff;
+	--gray: #6c757d;
+	--gray-dark: #343a40;
+	--primary: #007bff;
+	--secondary: #6c757d;
+	--success: #28a745;
+	--info: #17a2b8;
+	--warning: #ffc107;
+	--danger: #dc3545;
+	--light: #F7F9FA;
+	--dark: #343a40;
+}
+
+body {
+	background: #F7F9FA;
+}
+
+/* Publish post */
+
+a#post-preview {
+	width: 100%;
+}
+
+#publishing-action {
+	float: left;
+	text-align: left !important;
+}
+
+div#publishing-action {
+	width: 100%;
+}
+
+input#publish {
+	width: calc(100% - 30px);
+}
+
+.spinner {
+	margin: 6px 0;
+	float: right !important;
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+	box-shadow: none;
+	color: #fff;
+	background: #545b62;
+	border-color: #4e555b;
+}
+
+.wp-core-ui .button-secondary:focus,
+.wp-core-ui .button-secondary:hover,
+.wp-core-ui .button.focus,
+.wp-core-ui .button.hover,
+.wp-core-ui .button:focus,
+.wp-core-ui .button:hover {
+	color: #fff;
+	background: #5a6268;
+	border-color: #545b62;
+}
+
+.wp-core-ui .button-secondary:active,
+.wp-core-ui .button.active,
+.wp-core-ui .button.active:hover,
+.wp-core-ui .button:active {
+	box-shadow: none;
+	color: #fff;
+	background: #545b62;
+	border-color: #4e555b;
+}
+
+.wp-core-ui .button-secondary:focus,
+.wp-core-ui .button.focus,
+.wp-core-ui .button:focus {
+	box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.wp-core-ui .button-primary {
+	box-shadow: none;
+	text-shadow: none;
+	background: #007bff;
+	border-color: #007bff;
+	color: #fff;
+}
+
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary.hover,
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.wp-core-ui .button-primary.active,
+.wp-core-ui .button-primary.active:focus,
+.wp-core-ui .button-primary.active:hover,
+.wp-core-ui .button-primary:active {
+	color: #fff;
+	background-color: #0062cc;
+	border-color: #005cbf;
+}
+
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+input[type=checkbox]:checked:before {
+	color: #007bff;
+}
+
+input[type=text]:focus,
+input[type=search]:focus,
+input[type=radio]:focus,
+input[type=tel]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+input[type=password]:focus,
+input[type=checkbox]:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+select:focus,
+textarea:focus {
+	border-color: #99caff !important;
+	box-shadow: none;
+}
+
+#wp-content-editor-tools {
+	background: transparent;
+}
+
+.wp-media-buttons-icon::before {
+	color: #fff !important;
+}
+
+/* admin bar */
+
+#wpadminbar {
+	background: #343a40;
+}
+
+/* admin menu */
+
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+	background: #343a40;
+}
+
+/* login panel */
+
+#login {
+	width: 300px;
+	color: #212529 !important;
+}
+
+.login label {
+	color: #6c757d;
+	text-align: center;
+	display: block;
+}
+
+.login form {
+	background: transparent;
+	box-shadow: none;
+	padding: 0 !important;
+}
+
+.login form .input,
+.login form input[type=checkbox],
+.login input[type=text] {
+	background: #fff;
+	color: #495057;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+}
+
+.login form .input,
+.login input[type=text] {
+	margin-bottom: 10px;
+	padding: 3px 10px;
+}
+
+.login #backtoblog,
+.login #nav {
+	text-align: center;
+}
+
+.login form .forgetmenot {
+	float: none;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#login form p.submit {
+	float: none;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#login input#wp-submit {
+	width: 100%;
+	padding: .5rem 1rem;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	height: auto;
+}
+
+.login #backtoblog a {
+	color: #6c757d;
+	font-size: 12px;
+}
+
+.login #nav a {
+	color: #007bff;
+	font-size: 14px;
+}
+
+.login #backtoblog a:hover,
+.login #backtoblog a:focus,
+.login #nav a:hover,
+.login #nav a:focus {
+	color: #0056b3;
+}
+
+.login #login_error,
+.login .message,
+.login .success {
+	border-left-color: #007bff;
+	box-shadow: none;
+	text-align: center
+}
