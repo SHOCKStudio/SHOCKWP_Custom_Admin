@@ -171,8 +171,13 @@ textarea:focus {
 	background: #343a40;
 }
 
-#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu{
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
 	background: #007bff;
+}
+
+#adminmenu .wp-submenu a:hover,
+#adminmenu a:hover {
+	color: #007bff;
 }
 
 /* login panel */
