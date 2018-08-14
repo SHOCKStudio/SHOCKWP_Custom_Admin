@@ -171,6 +171,7 @@ textarea:focus {
 	background: #343a40;
 }
 
+#adminmenu a,
 #adminmenu .wp-submenu a {
 	color: rgba(255, 255, 255, 0.65);
 }
@@ -196,6 +197,11 @@ textarea:focus {
 #adminmenu li a:focus div.wp-menu-image:before,
 #adminmenu li.opensub div.wp-menu-image:before,
 #adminmenu li:hover div.wp-menu-image:before {
+	color: #fff;
+}
+
+#collapse-button:focus,
+#collapse-button:hover{
 	color: #fff;
 }
 
