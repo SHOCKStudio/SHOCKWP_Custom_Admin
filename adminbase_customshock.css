@@ -171,8 +171,12 @@ textarea:focus {
 	background: #343a40;
 }
 
+#adminmenu .wp-submenu a {
+	color: rgba(255, 255, 255, 0.65);
+}
+
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
-	background: #007bff;
+	background: #0069d9;
 }
 
 #adminmenu .wp-submenu a:hover,
