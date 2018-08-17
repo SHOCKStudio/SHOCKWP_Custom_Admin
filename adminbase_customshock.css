@@ -122,6 +122,16 @@ input#publish {
 	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
+.wp-core-ui .button-primary-disabled,
+.wp-core-ui .button-primary.disabled,
+.wp-core-ui .button-primary:disabled,
+.wp-core-ui .button-primary[disabled] {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	opacity: .65;
+}
+
 input[type=checkbox]:checked:before {
 	color: #007bff;
 }
@@ -207,7 +217,7 @@ textarea:focus {
 }
 
 #collapse-button:focus,
-#collapse-button:hover{
+#collapse-button:hover {
 	color: #fff;
 }
 
