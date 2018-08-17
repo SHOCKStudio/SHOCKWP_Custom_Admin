@@ -126,10 +126,11 @@ input#publish {
 .wp-core-ui .button-primary.disabled,
 .wp-core-ui .button-primary:disabled,
 .wp-core-ui .button-primary[disabled] {
-	color: #fff;
-	background-color: #007bff;
-	border-color: #007bff;
+	color: #fff !important;
+	background-color: #007bff !important;
+	border-color: #007bff !important;
 	opacity: .65;
+	text-shadow: none !important;
 }
 
 input[type=checkbox]:checked:before {
