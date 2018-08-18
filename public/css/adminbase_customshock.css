@@ -171,6 +171,13 @@ textarea:focus {
 	background: #343a40;
 }
 
+#wpadminbar .ab-top-menu>li.hover>.ab-item,
+#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
+#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus{
+	color: #007bff;
+}
+
 /* admin menu */
 
 #adminmenu,
