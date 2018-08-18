@@ -6,6 +6,7 @@ Description: Custom Admin Panel and login
 Version: 1.0.1
 Author: SHOCKStudio Sp. z o.o.
 Author URI: https://shockstudio.pl
+GitHub Plugin URI: https://github.com/SHOCKStudio/SHOCKWP_Custom_Admin
 */
 
 // login error hide
