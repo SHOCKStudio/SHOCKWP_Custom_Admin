@@ -3,7 +3,7 @@
 Plugin Name: SHOCKWP Custom Admin
 Plugin URI: https://shockstudio.pl
 Description: Custom Admin Panel and login
-Version: 1.0
+Version: 1.0.1
 Author: SHOCKStudio Sp. z o.o.
 Author URI: https://shockstudio.pl
 */
