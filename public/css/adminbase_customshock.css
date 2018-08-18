@@ -24,6 +24,7 @@ SHOCKWP Custom Admin
 	--danger: #dc3545;
 	--light: #F7F9FA;
 	--dark: #343a40;
+	--blue-hover: #0056b3;
 }
 
 body {
@@ -168,7 +169,34 @@ textarea:focus {
 .notice-info{
 	border-left-color: #007bff;
 	box-shadow: none;
-	text-align: center
+	text-align: center;
+}
+
+.notice-success,
+div.updated{
+	border-left-color: #28a745;
+	box-shadow: none;
+	text-align: center;
+}
+
+.notice-dismiss:active:before,
+.notice-dismiss:focus:before,
+.notice-dismiss:hover:before{
+	color: #dc3545;
+}
+
+.plugin-update-tr.active td,
+.plugins .active th.check-column{
+	border-left-color: #007bff; 
+}
+
+.plugins .active td,
+.plugins .active th{
+	background: #99caff;
+}
+
+.wp-list-table a{
+	color: #0056b3;
 }
 
 /* admin bar */
@@ -231,6 +259,10 @@ textarea:focus {
 #collapse-button:focus,
 #collapse-button:hover {
 	color: #fff;
+}
+
+#adminmenu .update-plugins.wf-menu-badge{
+	background-color: #ffc107 !important;
 }
 
 /* login panel */
