@@ -175,7 +175,7 @@ textarea:focus {
 #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,
 #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus{
-	color: #007bff;
+	color: #FFF;
 }
 
 /* admin menu */
