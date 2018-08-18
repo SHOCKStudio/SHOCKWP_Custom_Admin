@@ -169,14 +169,12 @@ textarea:focus {
 .notice-info{
 	border-left-color: #007bff;
 	box-shadow: none;
-	text-align: center;
 }
 
 .notice-success,
 div.updated{
 	border-left-color: #28a745;
 	box-shadow: none;
-	text-align: center;
 }
 
 .notice-dismiss:active:before,
