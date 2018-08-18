@@ -166,39 +166,39 @@ textarea:focus {
 	color: #fff !important;
 }
 
-.notice-info{
+.notice-info {
 	border-left-color: #007bff;
 	box-shadow: none;
 }
 
 .notice-success,
-div.updated{
+div.updated {
 	border-left-color: #28a745;
 	box-shadow: none;
 }
 
 .notice-dismiss:active:before,
 .notice-dismiss:focus:before,
-.notice-dismiss:hover:before{
+.notice-dismiss:hover:before {
 	color: #dc3545;
 }
 
 #adminmenu .awaiting-mod,
-#adminmenu .update-plugins{
+#adminmenu .update-plugins {
 	background-color: #dc3545;
 }
 
 .plugin-update-tr.active td,
-.plugins .active th.check-column{
-	border-left-color: #007bff; 
+.plugins .active th.check-column {
+	border-left-color: #007bff;
 }
 
 .plugins .active td,
-.plugins .active th{
+.plugins .active th {
 	background: rgba(153, 202, 255, .2);
 }
 
-.wp-list-table a{
+.wp-list-table a {
 	color: #0056b3;
 }
 
@@ -208,10 +208,23 @@ div.updated{
 	background: #343a40;
 }
 
+#wpadminbar .ab-empty-item,
+#wpadminbar a.ab-item,
+#wpadminbar>#wp-toolbar span.ab-label,
+#wpadminbar>#wp-toolbar span.noticon {
+	color: rgba(255, 255, 255, 0.65);
+}
+
+#wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,
+#wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,
+#wpadminbar>#wp-toolbar li.hover span.ab-label{
+	color: #fff;
+}
+
 #wpadminbar .ab-top-menu>li.hover>.ab-item,
 #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,
-#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus{
+#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
 	color: #FFF;
 }
 
@@ -234,7 +247,7 @@ div.updated{
 #wpadminbar li:hover .ab-icon:before,
 #wpadminbar li:hover .ab-item:before,
 #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
-#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover{
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover {
 	color: #fff;
 }
 
@@ -287,7 +300,7 @@ div.updated{
 	color: #fff;
 }
 
-#adminmenu .update-plugins.wf-menu-badge{
+#adminmenu .update-plugins.wf-menu-badge {
 	background-color: #ffc107 !important;
 }
 
