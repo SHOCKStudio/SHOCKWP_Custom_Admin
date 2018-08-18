@@ -21,7 +21,7 @@ function auto_redirect_after_logout(){
   exit();
 }
 
-// redirector to home panel login
+// redirect to home panel login
 function my_login_logo_url() {
   return home_url();
 }
