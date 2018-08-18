@@ -185,6 +185,11 @@ div.updated{
 	color: #dc3545;
 }
 
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins{
+	background-color: #dc3545;
+}
+
 .plugin-update-tr.active td,
 .plugins .active th.check-column{
 	border-left-color: #007bff; 
@@ -192,7 +197,7 @@ div.updated{
 
 .plugins .active td,
 .plugins .active th{
-	background: #99caff;
+	background: rgba(153, 202, 255, .2);
 }
 
 .wp-list-table a{
