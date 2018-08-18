@@ -7,6 +7,6 @@ Project Custom Admin Panel WordPress
 	- Redirect logo to Home URL
 	- Custom title logo
 - Custom admin panel:
- - Default scheme theme admin
- - Disabled scheme theme admin
- - Add style BT4
+	- Default scheme theme admin
+	- Disabled scheme theme admin
+	- Add style BT4
