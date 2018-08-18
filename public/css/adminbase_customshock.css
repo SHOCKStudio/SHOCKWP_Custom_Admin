@@ -165,6 +165,12 @@ textarea:focus {
 	color: #fff !important;
 }
 
+.notice-info{
+	border-left-color: #007bff;
+	box-shadow: none;
+	text-align: center
+}
+
 /* admin bar */
 
 #wpadminbar {
