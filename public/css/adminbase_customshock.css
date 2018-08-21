@@ -251,6 +251,12 @@ div.updated {
 	color: #fff;
 }
 
+@media screen and (max-width: 782px){
+	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
+	color: #0069d9;
+}
+}
+
 /* admin menu */
 
 #adminmenu,
