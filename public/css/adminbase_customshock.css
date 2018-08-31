@@ -186,7 +186,8 @@ div.updated {
 #adminmenu .awaiting-mod,
 #adminmenu .update-plugins,
 .wp-ui-notification {
-	background-color: #dc3545;
+	background-color: #dc3545 !important;
+	font-size: 9px !important;
 }
 
 .plugin-update-tr.active td,
