@@ -31,6 +31,10 @@ body {
 	background: #F7F9FA;
 }
 
+a{
+	color: #0056b3;
+}
+
 /* Publish post */
 
 a#post-preview {
