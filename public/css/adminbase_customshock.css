@@ -311,6 +311,11 @@ div.updated {
 	background-color: #ffc107 !important;
 }
 
+/* plugins */
+.filter-links .current{
+	border-color: #007bff;
+}
+
 /* login panel */
 
 #login {
