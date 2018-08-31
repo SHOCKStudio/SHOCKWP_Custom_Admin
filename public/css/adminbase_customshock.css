@@ -316,6 +316,19 @@ div.updated {
 	border-color: #007bff;
 }
 
+.filter-links li>a:focus,
+.filter-links li>a:hover,
+.show-filters .filter-links a.current:focus,
+.show-filters .filter-links a.current:hover{
+	color: #0056b3;
+}
+
+.wp-person a:focus .gravatar,
+a:focus,
+a:focus .media-icon img{
+	box-shadow: none;
+}
+
 /* login panel */
 
 #login {
