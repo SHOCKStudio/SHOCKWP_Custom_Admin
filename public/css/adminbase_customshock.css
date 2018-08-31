@@ -41,6 +41,22 @@ a#post-preview {
 	width: 100%;
 }
 
+.postbox{
+	border:0;
+	background: transparent;
+	box-shadow: none;
+}
+
+#major-publishing-actions{
+	border:0;
+	background: transparent;
+}
+
+.postbox .hndle,
+.stuffbox .hndle{
+	border:0;
+}
+
 #publishing-action {
 	float: left;
 	text-align: left !important;
@@ -331,6 +347,11 @@ div.updated {
 a:focus,
 a:focus .media-icon img{
 	box-shadow: none;
+}
+
+/* media */
+.media-frame a{
+	color: #0056b3;
 }
 
 /* login panel */
