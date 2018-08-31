@@ -50,7 +50,7 @@ input#publish {
 	width: calc(100% - 30px);
 }
 
-.spinner {
+#publishing-action .spinner {
 	margin: 6px 0;
 	float: right !important;
 }
@@ -184,7 +184,8 @@ div.updated {
 }
 
 #adminmenu .awaiting-mod,
-#adminmenu .update-plugins {
+#adminmenu .update-plugins,
+.wp-ui-notification {
 	background-color: #dc3545;
 }
 
@@ -395,4 +396,9 @@ div.updated {
 	border-left-color: #007bff;
 	box-shadow: none;
 	text-align: center
+}
+
+a.privacy-policy-link{
+	color: #007bff;
+	text-decoration: none;
 }
