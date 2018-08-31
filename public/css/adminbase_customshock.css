@@ -41,19 +41,19 @@ a#post-preview {
 	width: 100%;
 }
 
-#side-sortables .postbox {
+#post-body #side-sortables .postbox {
 	border:0;
 	background: transparent;
 	box-shadow: none;
 }
 
-#side-sortables #major-publishing-actions {
+#post-body #side-sortables #major-publishing-actions {
 	border:0;
 	background: transparent;
 }
 
-#side-sortables .postbox .hndle,
-#side-sortables .stuffbox .hndle {
+#post-body #side-sortables .postbox .hndle,
+#post-body #side-sortables .stuffbox .hndle {
 	border:0;
 }
 
