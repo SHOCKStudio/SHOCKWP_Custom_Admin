@@ -491,7 +491,7 @@ a.privacy-policy-link {
 	#login {
 		width: auto;
 		float: none;
-		padding-top: 25px;
+		padding-top: 20%;
 	}
 
 	body.login-action-login::before {
