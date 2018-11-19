@@ -27,13 +27,13 @@ SHOCKWP Custom Admin
 	--blue-hover: #0056b3;
 }
 
-body {
+body.login-action-login {
 	background-size: contain;
 	background-position-x: right;
 	overflow: hidden;
 }
 
-body::before {
+body.login-action-login::before {
 	width: 40%;
 	height: 100%;
 	position: absolute;
