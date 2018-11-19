@@ -3,7 +3,7 @@
 Plugin Name: SHOCKWP Custom Admin
 Plugin URI: https://github.com/SHOCKStudio/SHOCKWP_Custom_Admin
 Description: Custom Admin Panel and login
-Version: 1.0.25
+Version: 1.0.26
 Author: SHOCKStudio Sp. z o.o.
 Author URI: https://shockstudio.pl
 GitHub Plugin URI: https://github.com/SHOCKStudio/SHOCKWP_Custom_Admin
@@ -41,11 +41,11 @@ remove_action( 'admin_color_scheme_picker', 'admin_color_scheme_picker' );
 
 // add admin style panel and login page
 function admin_style() {
-  wp_enqueue_style('admin-styles', plugin_dir_url( __FILE__ ) .'/public/css/adminbase_customshock.css');
+  wp_enqueue_style('admin-styles', plugin_dir_url( __FILE__ ) .'public/css/adminbase_customshock.css');
 }
 add_action('admin_enqueue_scripts', 'admin_style');
 function custom_login() {
-	echo '<link rel="stylesheet" type="text/css" href="' . plugin_dir_url( __FILE__ ) .'/public/css/adminbase_customshock.css" />'; 
+	echo '<link rel="stylesheet" type="text/css" href="' . plugin_dir_url( __FILE__ ) .'public/css/adminbase_customshock.css" />'; 
   echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri().'/admin-style.css" />'; 
 }
 add_action('login_head', 'custom_login');
@@ -53,7 +53,7 @@ add_action('login_head', 'custom_login');
 function my_login_logo() {
   echo "<style type='text/css'>
   body.login-action-login {
-    background-image: url('".plugin_dir_url( __FILE__ )."/img/bglogin.jpg');
+    background-image: url('".plugin_dir_url( __FILE__ )."public/img/bglogin.jpg');
   }
   </style>";
 }
