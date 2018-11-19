@@ -27,21 +27,6 @@ SHOCKWP Custom Admin
 	--blue-hover: #0056b3;
 }
 
-body.login-action-login {
-	background-size: contain;
-	background-position-x: right;
-	overflow: hidden;
-}
-
-body.login-action-login::before {
-	width: 40%;
-	height: 100%;
-	position: absolute;
-	content: "";
-	background: #fff;
-	z-index: -1;
-}
-
 a {
 	color: #0056b3;
 }
@@ -367,6 +352,21 @@ a:focus .media-icon img {
 
 /* login panel */
 
+body.login-action-login {
+	background-size: contain;
+	background-position-x: right;
+	overflow: hidden;
+}
+
+body.login-action-login::before {
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	content: "";
+	background: #fff;
+	z-index: -1;
+}
+
 #login {
 	width: 40%;
 	float: left;
@@ -485,4 +485,20 @@ a:focus .media-icon img {
 a.privacy-policy-link {
 	color: #007bff;
 	text-decoration: none;
+}
+
+@media (max-width: 991px) {
+	#login {
+		width: auto;
+		float: none;
+	}
+
+	body.login-action-login::before {
+		display: none;
+		content: inherit;
+	}
+
+	body.login-action-login {
+		background: #fff;
+	}
 }
