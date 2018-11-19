@@ -394,6 +394,12 @@ a:focus .media-icon img {
 	height: auto;
 }
 
+.login #backtoblog a:hover,
+.login #nav a:hover,
+.login h1 a:hover{
+	color: #444;
+}
+
 .login label {
 	color: #6c757d;
 	text-align: center;
