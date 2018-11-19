@@ -28,10 +28,21 @@ SHOCKWP Custom Admin
 }
 
 body {
-	background: #F7F9FA;
+	background-size: contain;
+	background-position-x: right;
+	overflow: hidden;
 }
 
-a{
+body::before {
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	content: "";
+	background: #fff;
+	z-index: -1;
+}
+
+a {
 	color: #0056b3;
 }
 
@@ -42,19 +53,19 @@ a#post-preview {
 }
 
 #post-body #side-sortables .postbox {
-	border:0;
+	border: 0;
 	background: transparent;
 	box-shadow: none;
 }
 
 #post-body #side-sortables #major-publishing-actions {
-	border:0;
+	border: 0;
 	background: transparent;
 }
 
 #post-body #side-sortables .postbox .hndle,
 #post-body #side-sortables .stuffbox .hndle {
-	border:0;
+	border: 0;
 }
 
 #publishing-action {
@@ -238,7 +249,7 @@ div.updated {
 
 #wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,
 #wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,
-#wpadminbar>#wp-toolbar li.hover span.ab-label{
+#wpadminbar>#wp-toolbar li.hover span.ab-label {
 	color: #fff;
 }
 
@@ -272,10 +283,10 @@ div.updated {
 	color: #fff;
 }
 
-@media screen and (max-width: 782px){
+@media screen and (max-width: 782px) {
 	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
-	color: #0069d9;
-}
+		color: #0069d9;
+	}
 }
 
 /* admin menu */
@@ -332,33 +343,53 @@ div.updated {
 }
 
 /* plugins */
-.filter-links .current{
+.filter-links .current {
 	border-color: #007bff;
 }
 
 .filter-links li>a:focus,
 .filter-links li>a:hover,
 .show-filters .filter-links a.current:focus,
-.show-filters .filter-links a.current:hover{
+.show-filters .filter-links a.current:hover {
 	color: #0056b3;
 }
 
 .wp-person a:focus .gravatar,
 a:focus,
-a:focus .media-icon img{
+a:focus .media-icon img {
 	box-shadow: none;
 }
 
 /* media */
-.media-frame a{
+.media-frame a {
 	color: #0056b3;
 }
 
 /* login panel */
 
 #login {
-	width: 300px;
+	width: 40%;
+	float: left;
 	color: #212529 !important;
+	background: #fff;
+	padding: 0;
+	padding-top: calc(50vh / 2);
+}
+
+.login h1 {
+	margin: 0 auto;
+	max-width: 360px;
+	padding-bottom: 5%;
+}
+
+.login h1 a {
+	background: transparent !important;
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 0 auto 25px;
+	padding: 0;
+	text-indent: inherit;
+	display: inherit;
 }
 
 .login label {
@@ -371,6 +402,8 @@ a:focus .media-icon img{
 	background: transparent;
 	box-shadow: none;
 	padding: 0 !important;
+	max-width: 360px;
+	margin: 0 auto;
 }
 
 .login form .input,
@@ -441,7 +474,7 @@ a:focus .media-icon img{
 	text-align: center
 }
 
-a.privacy-policy-link{
+a.privacy-policy-link {
 	color: #007bff;
 	text-decoration: none;
 }
