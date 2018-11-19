@@ -396,7 +396,7 @@ body.login-action-login::before {
 
 .login #backtoblog a:hover,
 .login #nav a:hover,
-.login h1 a:hover{
+.login h1 a:hover {
 	color: #444;
 }
 
@@ -500,5 +500,9 @@ a.privacy-policy-link {
 
 	body.login-action-login {
 		background: #fff;
+	}
+
+	.login form {
+		padding: 0 25px !important;
 	}
 }
