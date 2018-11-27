@@ -365,6 +365,7 @@ body.login-action-login::before {
 	content: "";
 	background: #fff;
 	z-index: -1;
+	left:0;
 }
 
 #login {
