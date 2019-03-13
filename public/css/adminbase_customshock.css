@@ -28,7 +28,7 @@ SHOCKWP Custom Admin
 }
 
 body {
-	background: #fafafa;
+	background: #fff;
 }
 
 a{
@@ -230,27 +230,27 @@ div.updated {
 /* admin bar */
 
 #wpadminbar {
-	background: #fff;
+	background: #000;
 }
 
 #wpadminbar .ab-empty-item,
 #wpadminbar a.ab-item,
 #wpadminbar>#wp-toolbar span.ab-label,
 #wpadminbar>#wp-toolbar span.noticon {
-	color: #000;
+	color: rgba(255, 255, 255, 0.65);
 }
 
 #wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,
 #wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,
 #wpadminbar>#wp-toolbar li.hover span.ab-label {
-	color: #000;
+	color: #fff;
 }
 
 #wpadminbar .ab-top-menu>li.hover>.ab-item,
 #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,
 #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
-	color: #000000;
+	color: #FFF;
 }
 
 #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a,
@@ -273,7 +273,7 @@ div.updated {
 #wpadminbar li:hover .ab-item:before,
 #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
 #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover {
-	color: #000;
+	color: #fff;
 }
 
 @media screen and (max-width: 782px) {
@@ -288,12 +288,12 @@ div.updated {
 #adminmenu .wp-submenu,
 #adminmenuback,
 #adminmenuwrap {
-	background: #fff;
+	background: #000;
 }
 
 #adminmenu a,
 #adminmenu .wp-submenu a {
-	color: #000;
+	color: rgba(255, 255, 255, 0.65);
 }
 
 #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
@@ -310,28 +310,20 @@ div.updated {
 #adminmenu .wp-submenu a:hover,
 #adminmenu a:hover,
 #adminmenu li.menu-top>a:focus {
-	color: #000;
+	color: #fff;
 }
 
 #adminmenu li.menu-top:hover,
 #adminmenu li.opensub>a.menu-top,
 #adminmenu li>a.menu-top:focus {
-	background: #fff;
-    color: #000;
-}
-
-#adminmenu li.menu-top:hover:before{
-	content: "";
-	display: block;
 	background: #0069d9;
-	height: 100%;
-	width: 4px;
+	color: #fff;
 }
 
 #adminmenu li a:focus div.wp-menu-image:before,
 #adminmenu li.opensub div.wp-menu-image:before,
 #adminmenu li:hover div.wp-menu-image:before {
-	color: #0069d9;
+	color: #fff;
 }
 
 #collapse-button:focus,
