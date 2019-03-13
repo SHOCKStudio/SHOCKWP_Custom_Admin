@@ -319,12 +319,13 @@ div.updated {
 #adminmenu li.menu-top:hover,
 #adminmenu li.opensub>a.menu-top,
 #adminmenu li>a.menu-top:focus {
-	background: #0069d9;
+	background: transparent;
 	color: #fff;
 }
 
 #adminmenu .wp-menu-arrow,
-#adminmenu .wp-menu-arrow div{
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after{
 	display: none;
 }
 
