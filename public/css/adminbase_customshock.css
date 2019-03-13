@@ -27,15 +27,11 @@ SHOCKWP Custom Admin
 	--blue-hover: #0056b3;
 }
 
-<<<<<<< HEAD
 body {
-	background: #fff;
+	background: #fafafa;
 }
 
 a{
-=======
-a {
->>>>>>> cae8cdf8d06ae5f6f78305b32452833e2b4df6b1
 	color: #0056b3;
 }
 
@@ -234,7 +230,7 @@ div.updated {
 /* admin bar */
 
 #wpadminbar {
-	background: #343a40;
+	background: #f5f5f5;
 }
 
 #wpadminbar .ab-empty-item,
@@ -292,7 +288,7 @@ div.updated {
 #adminmenu .wp-submenu,
 #adminmenuback,
 #adminmenuwrap {
-	background: #343a40;
+	background: #f5f5f5;
 }
 
 #adminmenu a,
