@@ -240,6 +240,10 @@ div.updated {
 	color: rgba(255, 255, 255, 0.65);
 }
 
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus{
+	background: #1a1a1a;
+}
+
 #wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,
 #wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,
 #wpadminbar>#wp-toolbar li.hover span.ab-label {
