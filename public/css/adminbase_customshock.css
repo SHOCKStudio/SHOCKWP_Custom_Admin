@@ -83,8 +83,8 @@ input#publish {
 .wp-core-ui .button-secondary {
 	box-shadow: none;
 	color: #fff;
-	background: #545b62;
-	border-color: #4e555b;
+	background: #1a1a1a;
+	border-color: #1a1a1a;
 }
 
 .wp-core-ui .button-secondary:focus,
@@ -95,7 +95,7 @@ input#publish {
 .wp-core-ui .button:hover {
 	color: #fff;
 	background: #5a6268;
-	border-color: #545b62;
+	border-color: #1a1a1a;
 }
 
 .wp-core-ui .button-secondary:active,
@@ -104,8 +104,8 @@ input#publish {
 .wp-core-ui .button:active {
 	box-shadow: none;
 	color: #fff;
-	background: #545b62;
-	border-color: #4e555b;
+	background: #1a1a1a;
+	border-color: #1a1a1a;
 }
 
 .wp-core-ui .button-secondary:focus,
