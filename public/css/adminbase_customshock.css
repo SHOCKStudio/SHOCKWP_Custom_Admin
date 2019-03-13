@@ -28,7 +28,7 @@ SHOCKWP Custom Admin
 }
 
 body {
-	background: #F7F9FA;
+	background: #fff;
 }
 
 a{
@@ -73,6 +73,10 @@ input#publish {
 #publishing-action .spinner {
 	margin: 6px 0;
 	float: right !important;
+}
+
+.wp-core-ui .button{
+	border-radius: 0;
 }
 
 .wp-core-ui .button,
