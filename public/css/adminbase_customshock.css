@@ -79,6 +79,17 @@ input#publish {
 	border-radius: 0;
 }
 
+.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active{
+	border-radius: 0;
+	color: #0069d9;
+	background: #fff;
+}
+
+.wrap .add-new-h2:hover, .wrap .page-title-action:hover{
+	background: #0069d9;
+	border-color: #0069d9;
+}
+
 .wp-core-ui .button,
 .wp-core-ui .button-secondary {
 	box-shadow: none;
