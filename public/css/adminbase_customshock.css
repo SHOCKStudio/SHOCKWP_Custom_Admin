@@ -244,6 +244,10 @@ div.updated {
 	background: #1a1a1a;
 }
 
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input{
+	background: #1a1a1a;
+}
+
 #wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,
 #wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,
 #wpadminbar>#wp-toolbar li.hover span.ab-label {
