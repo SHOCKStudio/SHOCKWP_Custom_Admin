@@ -310,20 +310,28 @@ div.updated {
 #adminmenu .wp-submenu a:hover,
 #adminmenu a:hover,
 #adminmenu li.menu-top>a:focus {
-	color: #fff;
+	color: #000;
 }
 
 #adminmenu li.menu-top:hover,
 #adminmenu li.opensub>a.menu-top,
 #adminmenu li>a.menu-top:focus {
+	background: #fff;
+    color: #000;
+}
+
+#adminmenu li.menu-top:hover:before{
+	content: "";
+	display: block;
 	background: #0069d9;
-	color: #fff;
+	height: 100%;
+	width: 4px;
 }
 
 #adminmenu li a:focus div.wp-menu-image:before,
 #adminmenu li.opensub div.wp-menu-image:before,
 #adminmenu li:hover div.wp-menu-image:before {
-	color: #fff;
+	color: #0069d9;
 }
 
 #collapse-button:focus,
